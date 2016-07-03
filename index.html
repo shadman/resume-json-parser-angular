@@ -1,0 +1,152 @@
+<html ng-app="nameApp">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Resume JSON Parse</title>
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/clipboard.min.js"></script>
+    <script>
+      var nameApp = angular.module('nameApp', []);
+      nameApp.controller('ResumeCtrl', function ($scope){
+        new Clipboard('.btn');
+        $scope.parseJson = function() {
+          $scope.names = $scope.enteredJson;
+        };
+      });
+    </script>
+
+  </head>
+  <body ng-controller="ResumeCtrl">
+
+    <form ng-submit="parseJson()">
+        <textarea ng-model="enteredJson" style="width:80%; height:300px;"></textarea> <br />
+        <input type="button" class="btn" value="Copy Sample Resume Json" data-clipboard-action="copy" data-clipboard-target="#sample-json">
+        <input type="submit" value="Generate Resume">
+    </form>
+
+    <b> Example Resume Json: </b>
+    <pre style="border:1px solid #CCC; padding:20px;" id="sample-json">
+{
+"basic_information": {
+    "first_name": "Shadman",
+    "last_name": "Jamil",
+    "title": "Technical Lead",
+    "email": "shadman.jamil@gmail.com",
+    "phone": "+92-321-3674902",
+    "cell_phone": "+92-321-2655783",
+    "website": "http://test.com",
+    "linkedin_url": "https://www.linkedin.com/in/shadmanjamil",
+    "git_url": "https://github.com/shadman",
+    "summary": "My short summary will be here"
+},
+"personal_information": {
+    "father_name": "Jamil Muhammad",
+    "date_of_birth": "1986-06-14",
+    "nationality": "Pakistan",
+    "religion": "Islam",
+    "id_number": "131231231312",
+    "marital_status": "single",
+    "gender": "male"
+},
+"education": [
+    {
+        "degree": "MBA",
+        "major": "MIS & Marketing",
+        "institution": "SZABIST",
+        "location": "Karachi, Pakistan",
+        "from_year": 2013,
+        "to_year": 2015,
+        "gpa": "3/4"
+    },
+    {
+        "degree": "BS",
+        "major": "IT",
+        "institution": "PIMSAT",
+        "location": "Karachi, Pakistan",
+        "from_year": 2004,
+        "to_year": 2008,
+        "gpa": "3.6/4"
+    }
+],
+"experience": [
+    {
+        "title": "Software Development Engineer",
+        "company": "Flipkart",
+        "location": "India",
+        "from": "Jun. 2011",
+        "to": "Jul. 2013",
+        "details": [
+            "Wrote a ruby gem _Morsel_ to traverse through active.",
+            "Was part of a team which developed the warehouse modul."
+        ]
+    },
+    {
+        "title": "Software Engineer",
+        "organisation": "IBM Software Labs",
+        "location": "India",
+        "from": "Jul. 2009",
+        "to": "Jun. 2011",
+        "details": [
+            "Handled high priority issues for JDBC client driver for IBM Informix database.",
+            "Was awarded Smart CADian award for resolving an obscure deadlock situation, making Informix JDBC driver more robust."
+        ]
+    }
+],
+"skills": [
+    {
+        "type": "Programming",
+        "items": [
+            "Ruby",
+            "Javascript",
+            "PHP"
+        ]
+    },
+    {
+        "type": "Databases",
+        "items": [
+            "MySQL",
+            "MSSQL",
+            "MongoDB"
+        ]
+    }
+],
+"achievements": [
+    "Was among the top 5% in the institute merit list of the undergraduate batch at IIT Kharagpur.",
+    "Secured 383rd Rank in IIT-JEE 2005, an exam conducted by Indian Institute of Technology(s)."
+],
+"projects": [
+    {
+        "headline": "Designed product _Omerta_, a multi-user chat room application in j2me using Sun Wireless Toolkit platform.",
+        "url": "http://sample.com",
+        "description": "Was awarded 1 position for the product"
+    }
+],
+"extra_curriculars": [
+    "Was awarded 2 position in Bionetics, Coding Event, Genesis 09 at IIT Kharagpur.",
+    "Microsoft Student Partner of IIT Kharagpur from the period July 08 – June 09."
+],
+"interest_hobbies": [
+    "Social Networking",
+    "Outdoor Activities",
+    "Food",
+    "Travel",
+    "Adventure"
+],
+"references": [
+    {
+        "full_name": "Ref Ali",
+        "phone": "223-123-2312",
+        "email": "ref@cc.com",
+        "designation": "Abc, Pvt."
+    },
+    {
+        "full_name": "Ref Asim",
+        "phone": "224-123-2312",
+        "email": "refasim@cc.com",
+        "designation": "Abc, Pvt."
+    }
+]
+}</pre>
+
+  </body>
+</html>
