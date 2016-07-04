@@ -1,0 +1,30 @@
+
+
+body {
+	padding:20px;
+	font-style: arial;
+}
+
+.input-json {
+	width:100%; 
+	height:300px;
+	margin-bottom:10px;
+}
+
+.sample-json {
+	border:1px solid #DCDCDC; 
+	background-color:#FCFCFC; 
+	border-style: dashed; 
+	color:#333; 
+	padding:20px; 
+	font-size:10px;
+}
+
+.generate-btn {
+	float:right;
+}
+
+.message {
+	color: red;
+	font-weight: bold;
+}
