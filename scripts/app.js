@@ -42,9 +42,11 @@
     });
 
 
-    resumeApp.controller('ResumeParseCtrl', function ($scope, $routeParams, $rootScope){
+    resumeApp.controller('ResumeParseCtrl', function ($scope, $routeParams, $location, $rootScope){
+      if ($rootScope.result == undefined) $location.path('/');
+      
       $scope.name = $routeParams.resume;
-      $scope.data = $rootScope.result
+      $scope.data = $rootScope.result;
       console.log($rootScope.result.basic_information.first_name);
     });
 
