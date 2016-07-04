@@ -4,7 +4,7 @@
     resumeApp.config(function($routeProvider) {
         $routeProvider.
           when('/', {
-            templateUrl: 'views/resume-json.html',
+            templateUrl: 'views/resume_json.html',
             controller: 'ResumeCtrl'
           }).
           when('/:resume', {

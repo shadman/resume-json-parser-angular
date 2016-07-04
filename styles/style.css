@@ -1,8 +1,13 @@
 
 
 body {
-	padding:20px;
 	font-style: arial;
+}
+
+.resume-parser {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
 }
 
 .input-json {

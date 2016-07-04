@@ -1,0 +1,14 @@
+<div class="group"  ng-if="data.basic_information.summary">
+	<h3>Experince</h3>
+	  <div ng-repeat="work in data.experience">
+	  	<div>
+	  		<span>{{work.from}} - {{work.to ? work.to : 'Present'}}</span>
+	  	<div>
+	  	<div>
+	  		{{work.title}}, {{work.company}}, {{work.location}}
+			<li ng-repeat="points in work.details">
+				{{points}}
+			</li>
+	  	</div>
+	  </div>
+</div>

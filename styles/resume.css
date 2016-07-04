@@ -1,0 +1,51 @@
+.resume-template {
+	font-style: arial;
+	font-size: 12px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.resume-template h2 {
+	font-size: 24px;
+}
+
+.resume-template h3 {
+	color: #666666;
+}
+
+.resume-template .group {
+	border:1px solid; 
+	padding-left: 10px;
+}
+
+.resume-template .content {
+	padding-left: 15px;
+}
+
+.resume-template .photo {
+	float: right; 
+	overflow: none; 
+	height:150px; 
+	width: 150px; 
+	margin-top: 10px; 
+	margin-right: 20px;	 
+	text-align: center; 
+	border:1px solid #CFCFCF; 
+	padding:8px;
+}
+
+.resume-template .basic-info {
+	text-align: left; 
+	padding-left: 20px;
+}
+
+.resume-template .content-contact { 
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+}
+
+.resume-template .content-contact .small-heading {
+	font-weight: bold;
+}

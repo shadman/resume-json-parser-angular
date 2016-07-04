@@ -1,0 +1,44 @@
+
+<div class="group">
+
+
+	<div class="photo">
+		<img src="{{data.basic_information.picture}}" alt="150 x 150" width="150" height="150">
+	</div>
+
+	<div class="basic-info">
+
+		<h2>{{data.basic_information.first_name}} {{data.basic_information.last_name}}</h2>
+
+		<ul class="content-contact">
+			<li ng-if="data.basic_information.location">
+				<span class="small-heading">Address:</span> 
+				<span ng-if="data.basic_information.location.address" >{{data.basic_information.location.address}}</span>
+				<span ng-if="data.basic_information.location.city" >, {{data.basic_information.location.city}}</span>
+				<span ng-if="data.basic_information.location.country" >, {{data.basic_information.location.country}}</span>
+				<span ng-if="data.basic_information.location.postal_code" >, {{data.basic_information.location.postal_code}}</span>
+			</li> 
+			<li ng-if="data.basic_information.email">
+				<span class="small-heading">Email:</span> {{data.basic_information.email}}
+			</li> 
+			<li ng-if="data.basic_information.phone">
+				<span class="small-heading">Phone:</span> {{data.basic_information.phone}}
+			</li> 
+			<li ng-if="data.basic_information.cell_phone">
+				<span class="small-heading">Mobile:</span> {{data.basic_information.cell_phone}}
+			</li> 
+			<li ng-if="data.basic_information.website">
+				<span class="small-heading">Website:</span> {{data.basic_information.website}}
+			</li> 
+			<li ng-if="data.basic_information.linkedin_url">
+				<span class="small-heading">LinkedIn:</span> <a href="{{data.basic_information.linkedin_url}}" target="_blank">{{data.basic_information.linkedin_url}}</a>
+			</li> 
+			<li ng-if="data.basic_information.git_url">
+				<span class="small-heading">Git:</span> <a href="{{data.basic_information.git_url}}" target="_blank">{{data.basic_information.git_url}}</a>
+			</li> 
+		</ul>
+
+	</div>
+
+
+</div>

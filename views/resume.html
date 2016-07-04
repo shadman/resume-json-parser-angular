@@ -1,5 +1,7 @@
-Template 1 {{name}} 
+<div class="resume-template">
+	<div ng-include src="'views/resume/_resume_basic_info.html'"></div>
 
-<ul>
-  <li ng-repeat="work in data.experience">{{work.title}}</li>
-</ul>
+	<div ng-include src="'views/resume/_resume_summary.html'"></div>
+
+	<div ng-include src="'views/resume/_resume_experince.html'"></div>
+</div>
