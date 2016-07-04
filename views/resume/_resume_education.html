@@ -1,0 +1,23 @@
+<div class="group"  ng-if="data.education">
+	<h3>Education</h3>
+	  <div class="content">
+		  <ul ng-repeat="data in data.education" class="content-education">
+		  	<li class="education-duration">
+		  		<span>{{data.from_year}} - {{data.to_year ? data.to_year : 'In-progress'}}</span>
+		  	</li>
+		  	<li class="education-description">
+		  		<span class="bold">{{data.degree}}</span>
+		  		<span ng-if="data.major" class="bold"> in {{data.major}}</span> <br />
+		  		<span ng-if="data.institution">{{data.institution}}</span>
+		  		<span ng-if="data.location">, {{data.location}}</span>
+				<span ng-if="data.gpa" class="education-gpa">
+					<span class="bold">GPA:</span> {{data.gpa}}
+				</span>
+				<span ng-if="data.percentage" class="education-gpa">
+					<span class="bold">Percentage:</span> {{data.percentage}}
+				</span>
+		  	</li>
+		  </ul>
+		  <br class="clear" />
+	  <div>
+</div>
