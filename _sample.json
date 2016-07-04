@@ -1,0 +1,121 @@
+{
+    "basic_information": {
+        "first_name": "Shadman",
+        "last_name": "Jamil",
+        "title": "Technical Lead",
+        "email": "shadman.jamil@gmail.com",
+        "phone": "+92-321-3674902",
+        "cell_phone": "+92-321-2655783",
+        "website": "http://test.com",
+        "linkedin_url": "https://www.linkedin.com/in/shadmanjamil",
+        "git_url": "https://github.com/shadman",
+        "summary": "My short summary will be here"
+    },
+    "personal_information": {
+        "father_name": "Jamil Muhammad",
+        "date_of_birth": "1986-06-14",
+        "nationality": "Pakistan",
+        "religion": "Islam",
+        "id_number": "131231231312",
+        "marital_status": "single",
+        "gender": "male"
+    },
+    "education": [
+        {
+            "degree": "MBA",
+            "major": "MIS & Marketing",
+            "institution": "SZABIST",
+            "location": "Karachi, Pakistan",
+            "from_year": 2013,
+            "to_year": 2015,
+            "gpa": "3/4"
+        },
+        {
+            "degree": "BS",
+            "major": "IT",
+            "institution": "PIMSAT",
+            "location": "Karachi, Pakistan",
+            "from_year": 2004,
+            "to_year": 2008,
+            "gpa": "3.6/4"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Technical Lead",
+            "company": "10Pearls",
+            "location": "Pakistan",
+            "from": "Jun. 2011",
+            "is_present": 1,
+            "details": [
+                "Wrote a ruby gem _Morsel_ to traverse through active.",
+                "Was part of a team which developed the warehouse modul."
+            ]
+        },
+        {
+            "title": "Senior Software Engineer",
+            "organisation": "Creative Chaos",
+            "location": "Pakistan",
+            "from": "Jul. 2009",
+            "to": "Jun. 2011",
+            "details": [
+                "Handled high priority issues for JDBC client driver for IBM Informix database.",
+                "Was awarded Smart CADian award for resolving an obscure deadlock situation, making Informix JDBC driver more robust."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Programming",
+            "items": [
+                "Ruby",
+                "Javascript",
+                "PHP"
+            ]
+        },
+        {
+            "category": "Databases",
+            "items": [
+                "MySQL",
+                "MSSQL",
+                "MongoDB"
+            ]
+        }
+    ],
+    "achievements": [
+        "Was among the top 5% in the institute merit list of the undergraduate batch at IIT Kharagpur.",
+        "Secured 383rd Rank in IIT-JEE 2005, an exam conducted by Indian Institute of Technology(s)."
+    ],
+    "projects": [
+        {
+            "headline": "HBL Paycol",
+            "url": "http://sample.com",
+            "description": "A payment collection system, helps to collect fees for merchants"
+        }
+    ],
+    "extra_curriculars": [
+        "Was awarded 2 position in Bionetics, Coding Event, Genesis 09 at IIT Kharagpur.",
+        "Microsoft Student Partner of IIT Kharagpur from the period July 08 – June 09."
+    ],
+    "interest_hobbies": [
+        "Social Networking",
+        "Outdoor Activities",
+        "Food",
+        "Travel",
+        "Adventure"
+    ],
+    "references": [
+        {
+            "full_name": "M. Ali",
+            "phone": "223-123-2312",
+            "email": "ref@cc.com",
+            "designation": "Abc, Pvt."
+        },
+        {
+            "full_name": "Khalid Asim",
+            "phone": "224-123-2312",
+            "email": "refasim@cc.com",
+            "designation": "Abc, Pvt."
+        }
+    ]
+}
