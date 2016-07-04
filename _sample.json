@@ -1,11 +1,18 @@
 {
     "basic_information": {
+        "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAj7AAAAJDBmNTFmOThmLWI1NWEtNGZjNC1hZTI0LTFkODFhMmRhNTE3ZA.jpg",
         "first_name": "Shadman",
         "last_name": "Jamil",
         "title": "Technical Lead",
         "email": "shadman.jamil@gmail.com",
         "phone": "+92-321-3674902",
         "cell_phone": "+92-321-2655783",
+        "location": {
+            "address": "Gulshan",
+            "city": "Karachi",
+            "country": "Pakistan",
+            "postal_code": ""
+        },
         "website": "http://test.com",
         "linkedin_url": "https://www.linkedin.com/in/shadmanjamil",
         "git_url": "https://github.com/shadman",
@@ -46,7 +53,6 @@
             "company": "10Pearls",
             "location": "Pakistan",
             "from": "Jun. 2011",
-            "is_present": 1,
             "details": [
                 "Wrote a ruby gem _Morsel_ to traverse through active.",
                 "Was part of a team which developed the warehouse modul."
@@ -54,7 +60,7 @@
         },
         {
             "title": "Senior Software Engineer",
-            "organisation": "Creative Chaos",
+            "company": "Creative Chaos",
             "location": "Pakistan",
             "from": "Jul. 2009",
             "to": "Jun. 2011",
