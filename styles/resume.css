@@ -1,27 +1,33 @@
 .resume-template {
 	font-style: arial;
-	font-size: 12px;
+	font-size: 14px;
 	width: 80%;
 	margin: 0 auto;
+	border: 1px dashed #CFCFCF;
 }
 
 
 .resume-template h2 {
-	font-size: 24px;
+	font-size: 26px;
 }
 
 .resume-template h3 {
 	color: #666666;
+	padding-left: 20px;
+	font-size: 18px;
 }
 
 .resume-template .group {
-	border:1px solid; 
-	padding-left: 10px;
-	padding-bottom: 10px;
+	border-bottom:0px solid #CFCFCF; 
+	padding: 15px 10px 15px 10px;
+}
+
+.resume-template .justify {
+	text-align: justify;
 }
 
 .resume-template .content {
-	padding-left: 15px;
+	padding-left: 20px;
 }
 
 .resume-template .photo {
@@ -29,7 +35,7 @@
 	overflow: none; 
 	height:150px; 
 	width: 150px; 
-	margin-top: 10px; 
+	margin-top: 5px; 
 	margin-right: 20px;	 
 	text-align: center; 
 	border:1px solid #CFCFCF; 
@@ -41,6 +47,7 @@
 .resume-template .basic-info {
 	text-align: left; 
 	padding-left: 20px;
+	font-size: 12px;
 }
 
 .resume-template .content-contact { 
@@ -108,6 +115,11 @@
 }
 
 
+.resume-template .responsive-li .heading {
+	color: #999999;
+}
+
+
 /* Education */
 .resume-template .content-education {
 	padding: 0; 
@@ -166,8 +178,11 @@
 }
 
 .resume-template .info-list .responsive-li:nth-child(even) {
+	text-transform: capitalize;
 }
 
 .resume-template .info-list .responsive-li:nth-child(odd) {
-	clear:both; width: 20%;
+	clear:both; 
+	width: 20%;
+	color: #999999;
 }

@@ -45,6 +45,15 @@
             "from_year": "Sep, 2004",
             "to_year": "Dec, 2008",
             "gpa": "3.6/4"
+        },
+        {
+            "degree": "Intermediate",
+            "major": "Pre-Engineering",
+            "institution": "Govt. Degree Science College.",
+            "location": "Karachi, Pakistan",
+            "from_year": "Mar, 2002",
+            "to_year": "Jul, 2004",
+            "percentage": "70/100"
         }
     ],
     "experience": [
