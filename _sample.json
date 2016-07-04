@@ -16,7 +16,7 @@
         "website": "http://test.com",
         "linkedin_url": "https://www.linkedin.com/in/shadmanjamil",
         "git_url": "https://github.com/shadman",
-        "summary": "My short summary will be here"
+        "summary": "Having worked within the software industry for over 9 years, I have had the opportunity to worked on web-based applications and have a diversified experience in different technologies and platforms. I have developed a wide range of skills and achievements, including excellent architectural concepts, interpersonal skills, excellent communication who has the ability to work independently under pressure; can lead, motivate and influence others and can train and mentor sub-­ordinates."
     },
     "personal_information": {
         "father_name": "Jamil Muhammad",
@@ -29,21 +29,21 @@
     },
     "education": [
         {
-            "degree": "MBA",
+            "degree": "Master of Business Administration",
             "major": "MIS & Marketing",
-            "institution": "SZABIST",
+            "institution": "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology",
             "location": "Karachi, Pakistan",
-            "from_year": 2013,
-            "to_year": 2015,
+            "from_year": "Sep, 2013",
+            "to_year": "Dec, 2015",
             "gpa": "3/4"
         },
         {
-            "degree": "BS",
+            "degree": "Bachelor of Science",
             "major": "IT",
-            "institution": "PIMSAT",
+            "institution": "Preston Institute of Management, Sciences & Technology",
             "location": "Karachi, Pakistan",
-            "from_year": 2004,
-            "to_year": 2008,
+            "from_year": "Sep, 2004",
+            "to_year": "Dec, 2008",
             "gpa": "3.6/4"
         }
     ],
@@ -52,21 +52,30 @@
             "title": "Technical Lead",
             "company": "10Pearls",
             "location": "Pakistan",
-            "from": "Jun. 2011",
+            "from": "Apr, 2013",
             "details": [
-                "Wrote a ruby gem _Morsel_ to traverse through active.",
-                "Was part of a team which developed the warehouse modul."
+                "Architecture & System Design",
+                "Managing Team & Project",
+                "Web Application Development",
+                "Solving Problems & Provide Valuable Solutions",
+                "Client Communication & Project Planning",
+                "Technical & Architectural Documentation"
             ]
         },
         {
             "title": "Senior Software Engineer",
             "company": "Creative Chaos",
             "location": "Pakistan",
-            "from": "Jul. 2009",
-            "to": "Jun. 2011",
+            "from": "Jan, 2011",
+            "to": "Apr, 2013",
             "details": [
-                "Handled high priority issues for JDBC client driver for IBM Informix database.",
-                "Was awarded Smart CADian award for resolving an obscure deadlock situation, making Informix JDBC driver more robust."
+                "Web Application Development",
+                "Managing Projects & Solving Problems",
+                "Database Design",
+                "Wire­frames Designing",
+                "Project Requirement Engineering & Estimations",
+                "SOW Finalization & Project Planning",
+                "Client Communication & Pre­Sales Engineer"
             ]
         }
     ],
@@ -89,19 +98,29 @@
         }
     ],
     "achievements": [
-        "Was among the top 5% in the institute merit list of the undergraduate batch at IIT Kharagpur.",
-        "Secured 383rd Rank in IIT-JEE 2005, an exam conducted by Indian Institute of Technology(s)."
+        "Employee of the Month at 10Pearls in 2015",
+        "Employee of the Month at 10Pearls in 2013",
+        "Best Performance Award at Creative Chaos on HBL Paycol Project.",
+        "Guest Lecturer at PIMSAT on PHP Web Development Scope and Awareness"
     ],
     "projects": [
         {
+            "year": "2014",
             "headline": "HBL Paycol",
             "url": "http://sample.com",
             "description": "A payment collection system, helps to collect fees for merchants"
         }
     ],
     "extra_curriculars": [
-        "Was awarded 2 position in Bionetics, Coding Event, Genesis 09 at IIT Kharagpur.",
-        "Microsoft Student Partner of IIT Kharagpur from the period July 08 – June 09."
+        "Mentoring",
+        "Team Building",
+        "Making Friends",
+        "Time Management",
+        "Gym",
+        "Photography",
+        "Watching",
+        "Movies",
+        "Chess"
     ],
     "interest_hobbies": [
         "Social Networking",

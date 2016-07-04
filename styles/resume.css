@@ -17,6 +17,7 @@
 .resume-template .group {
 	border:1px solid; 
 	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 .resume-template .content {
@@ -35,6 +36,8 @@
 	padding:8px;
 }
 
+
+/* Basic Info */
 .resume-template .basic-info {
 	text-align: left; 
 	padding-left: 20px;
@@ -48,4 +51,123 @@
 
 .resume-template .content-contact .small-heading {
 	font-weight: bold;
+}
+
+
+/* Experince */
+.resume-template .content-experience {
+	padding: 0; 
+	margin: 0; 
+	clear: both; 
+	list-style: none; 
+	display:block; 
+	position: relative; 
+	margin-top: 20px;
+}
+
+.resume-template .experience-duration {
+	width: 20%; 
+	float:left; 
+	color: #999999;
+}
+
+.resume-template .experience-description {
+	width: 75%; 
+	float:left; 
+	padding-bottom:20px;
+}
+
+.resume-template .experience-details {
+	display:block; 
+	padding-top:10px;
+}
+
+.resume-template .bold {
+	font-weight: bold;
+}
+
+.resume-template .clear {
+	clear: both;
+}
+
+/* Responsive List */
+.resume-template .responsive-ul {
+	list-style:none;
+	padding:0; 
+	margin:0; 
+	padding-top:10px; 
+	clear:both;
+}
+
+.resume-template .responsive-li {
+	float:left; margin-right: 5px;
+}
+
+.resume-template .responsive-li:first-child {
+	width: 20%;
+}
+
+
+/* Education */
+.resume-template .content-education {
+	padding: 0; 
+	margin: 0; 
+	clear: both; 
+	list-style: none; 
+	display:block; 
+	position: relative; 
+	margin-top: 20px;
+}
+
+.resume-template .education-duration {
+	width: 20%; 
+	float:left; 
+	color: #999999;
+}
+
+.resume-template .education-description {
+	width: 75%; 
+	float:left; 
+	padding-bottom:20px;
+}
+
+.resume-template .education-gpa {
+	display:block; 
+	padding-top:5px;
+}
+
+
+/* Projects */
+.resume-template .content-project {
+	padding: 0; 
+	margin: 0; 
+	clear: both; 
+	list-style: none; 
+	display:block; 
+	position: relative; 
+	margin-top: 20px;
+}
+
+.resume-template .project-heading {
+	width: 20%; 
+	float:left; 
+	color: #999999;
+}
+
+.resume-template .project-description {
+	width: 75%; 
+	float:left; 
+	padding-bottom:20px;
+}
+
+/* Personal Info */
+.resume-template .info-list .responsive-ul {
+	
+}
+
+.resume-template .info-list .responsive-li:nth-child(even) {
+}
+
+.resume-template .info-list .responsive-li:nth-child(odd) {
+	clear:both; width: 20%;
 }
