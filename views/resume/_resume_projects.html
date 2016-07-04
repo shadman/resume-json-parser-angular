@@ -1,0 +1,16 @@
+<div class="group" ng-if="data.projects">
+	<h3>Projects</h3>
+	<div class="content">
+		<ul ng-repeat="project in data.projects" class="content-project">
+			<li class="project-heading">
+				<span>{{project.year}}</span>
+			</li>
+			<li class="project-description">
+				<div class="bold">{{project.headline}}</div>
+				<div ng-if="project.url">{{project.url}}</div>
+				<div ng-if="project.description">{{project.description}}</div>
+			</li>
+		</ul>
+	<br class="clear" />
+	<div>
+</div>

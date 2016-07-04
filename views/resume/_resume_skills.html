@@ -1,0 +1,10 @@
+<div class="group"  ng-if="data.skills">
+	<h3>Skills</h3>
+	<div class="content">
+		<ul ng-repeat="skill in data.skills" class="responsive-ul">
+			<li class="responsive-li"><span class="bold">{{skill.category}}</span></li>
+			<li class="responsive-li"> {{skill.items.join(', ')}}</li>
+		</ul>
+	<br class="clear" />
+	<div>
+</div>

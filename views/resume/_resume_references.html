@@ -1,0 +1,15 @@
+<div class="group" ng-if="data.references">
+	<h3>References</h3>
+	<div class="content">
+		<ul ng-repeat="reference in data.references" class="responsive-ul">
+			<li class="responsive-li">
+				<span class="bold">{{reference.full_name}} </span>
+				<span ng-if="reference.designation">, {{reference.designation}}</span> 
+				<div>
+				{{reference.email}}; {{reference.phone}}
+				</div>
+			</li>
+		</ul>
+	<br class="clear" />
+	<div>
+</div>
