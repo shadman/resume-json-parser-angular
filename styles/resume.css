@@ -1,6 +1,6 @@
 .resume-template {
-	font-style: arial;
-	font-size: 14px;
+	font-family: arial;
+	font-size: 13px;
 	width: 80%;
 	margin: 0 auto;
 	border: 1px dashed #CFCFCF;
@@ -15,11 +15,14 @@
 	color: #666666;
 	padding-left: 20px;
 	font-size: 18px;
+	padding-top: 0px;
+	margin-top: 0px;
+	border-bottom: 1px solid #CFCFCF;
 }
 
 .resume-template .group {
 	border-bottom:0px solid #CFCFCF; 
-	padding: 15px 10px 15px 10px;
+	padding: 10px;
 }
 
 .resume-template .justify {
