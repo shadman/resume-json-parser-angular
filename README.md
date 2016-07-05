@@ -1,5 +1,8 @@
 # RESUME JSON PARSER WITH ANGULAR
 
+## Live URL:
+https://resume-json-parser.herokuapp.com/
+
 
 ## Specifications:
 - Developed in AngularJs.
