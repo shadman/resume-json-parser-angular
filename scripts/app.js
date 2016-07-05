@@ -26,7 +26,7 @@
 
         $scope.parseJson = function() {
           if ($scope.enteredJson == undefined) {
-            $scope.message = "Please add json to generate resume";
+            $scope.message = "Please paste/write JSON to generate your resume.";
           } 
           else {
             try {
@@ -34,7 +34,7 @@
                 $rootScope.result = angular.fromJson($scope.enteredJson);
                 $location.path('resume');
             } catch (e) {
-                $scope.message = "Please add valid json to generate resume";
+                $scope.message = "Please add a valid JSON to generate your resume.";
                 $location.path('/');
             }  
           }

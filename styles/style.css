@@ -1,7 +1,7 @@
 
 
 body {
-	font-style: arial;
+	font-family: arial;
 }
 
 .resume-parser {
@@ -28,9 +28,22 @@ body {
 
 .generate-btn {
 	float:right;
+	background-color: green;
+	color: #FFF;
+	border:1px solid #000;
+	padding: 5px 10px;
+}
+
+.copy-btn {
+	background-color: #CFCFCF;
+	color: #000;
+	border:1px solid #000;
+	padding: 5px 10px;
 }
 
 .message {
+	padding-left: 10px;
 	color: red;
 	font-weight: bold;
+	font-size: 14px;
 }
