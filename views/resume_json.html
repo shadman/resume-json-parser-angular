@@ -1,7 +1,7 @@
 
     <form ng-submit="parseJson()">
-        <b>Paste your Resume Json here:</b>
-        <textarea ng-model="enteredJson" id="resume-json" class="input-json"></textarea> <br />
+        <b>Paste Your Resume Json Here:</b>
+        <textarea ng-model="enteredJson" id="resume-json" class="input-json" placeholder="Paste your Resume json here; you may also try below sample json for full results."></textarea> <br />
         <input type="button" class="btn copy-btn" value="Copy Sample Resume Json" data-clipboard-action="copy" data-clipboard-target="#sample-json">
         <span class="message">{{message}}</span>
         <input type="submit" value="Generate Resume" class="generate-btn">
