@@ -11,6 +11,7 @@ https://resume-json-parser.herokuapp.com/
 - Paste your Resume JSON as input in required format, then press 'Generate Resume' button to get display results.
 - Have placed a sample Resume JSON in index.html right after input area.
 - Have added a 'Copy Sample Resume' button, by that we can easily copy our sample Resume Json to paste on input area.
+- Tested with Firefox and Chrome.
 
 ## Deployment Steps:
 - Need to clone code from repository anywhere.
