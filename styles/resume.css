@@ -20,6 +20,14 @@
 	border-bottom: 1px solid #CFCFCF;
 }
 
+.resume-template h4 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	margin-top: -10px;
+}
+
 .resume-template .group {
 	border-bottom:0px solid #CFCFCF; 
 	padding: 10px;
